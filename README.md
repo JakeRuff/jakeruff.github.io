@@ -1,4 +1,4 @@
-# <img src="favicon.png" alt="alt text" width="40" height="40">jakeruff.com
+# <img src="favicon.png" alt="alt text" width="40" height="40">  jakeruff.com
 Completely redesigned personal portfolio site (moved away from Wordspress)
 
 ![](images/thumbnail.png)
