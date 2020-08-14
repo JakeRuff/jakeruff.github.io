@@ -1,2 +1,12 @@
-# Personal-Site
- jakeruff.com personal portfolio site (redesign)
+# ![](favicon.png)jakeruff.com
+Completely redesigned personal portfolio site (moved away from Wordspress)
+
+![](images/thumbnail.png)
+
+## Built With
+* HTML
+* CSS
+* JavaScript
+
+## Live Demo
+* [Visit the site here](http://www.jakeruff.com/)
