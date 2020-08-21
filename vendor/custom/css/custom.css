@@ -1,0 +1,89 @@
+#jake_sm {
+    height: 160px;
+    width: 160px;
+}
+
+#maindiv {
+    padding-top: 7em;
+}
+@media (min-width:320px) {
+    #maindiv {
+        padding-top: 3em !important;
+    }
+}
+#portfoliodiv {
+    padding-top: 3em;
+}
+.mt-5 {
+    margin-top: .3em !important; 
+}
+
+.row {
+    justify-content: center;
+}
+.lead {
+    margin-bottom: 1.5em;
+}
+
+.card {
+    margin-top: 3em;
+}
+#buttonlist {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+@media (min-width:600px){
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    }
+}
+@media (min-width:480px) {
+    .img-square-wrapper {
+        padding-top: 5em !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:320px) {
+    .img-square-wrapper {
+        padding-top: 2em !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+.img-square-wrapper {
+    padding: 1em;
+}
+.alert {
+    margin: 3em;
+}
+#resumebuttons {
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.4);
+}
+
+.btn {
+    margin: .3em;
+}
+
+
