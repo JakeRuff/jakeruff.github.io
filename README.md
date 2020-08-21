@@ -1,4 +1,4 @@
-# <img src="favicon.png" alt="alt text" width="40" height="40">  jakeruff.com
+# <img src="favicon.png" alt="alt text" width="40" height="40">  ruff.dev
 Completely redesigned personal portfolio site (moved away from WordPress)
 
 ![](images/thumbnail.png)
@@ -6,7 +6,7 @@ Completely redesigned personal portfolio site (moved away from WordPress)
 ## Built With
 * HTML
 * CSS
-* JavaScript
+* Bootstrap
 
 ## Live Demo
-* [Visit the site here](http://www.jakeruff.com/)
+* [Visit the site here](http://ruff.dev/)
