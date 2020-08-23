@@ -10,8 +10,13 @@
     padding-top: 7em;
 }
 #diverror {
-    padding-top: 14em;
+    padding-top: 5em;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
 @media (min-width:320px) {
     #maindiv {
         padding-top: 3em !important;
