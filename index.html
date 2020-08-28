@@ -9,29 +9,37 @@
   <meta name="author" content="">
 
   <title>Jake Ruff</title>
-  <link rel="icon" type="image/png" href="img/icon.png"/>
+  <link rel="icon" type="image/png" href="img/icon.png" />
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="vendor/custom/css/custom.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4e148bc523.js" crossorigin="anonymous"></script>
-  
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white  shadow-sm">
-    <div class="container">
-      <a class="navbar-brand hvr-grow" href="#"><img src="img/icon.png" alt="Jake on laptop" width="30" height="30"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container" id="navcontain">
+      <button class="navbar-brand hvr-grow"><img src="img/icon.png" alt="Jake on laptop" width="30" height="30"
+          id="secretbtn"></button>
+          <a class="navbar-brand text-secondary font-weight-light text-left" id="alt-nav-brand">Jake Ruff</a>
+
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto font-weight-light">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              
+            <a class="nav-link" href="index">Home
+
             </a>
           </li>
           <li class="nav-item">
@@ -46,27 +54,94 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
-    <div class="row">
+  <div class="container" id="maincontain">
+    <div class="row" id="mainrow">
       <div class="col-lg-7 col-md-12 col-sm-12 text-center" id="maindiv">
         <img src="img/me.png" alt="Jake Ruff" class="rounded mx-auto d-block" id="jake_sm">
         <h1 class="mt-5" id="name">Jake Ruff</h1>
-        <p class="lead">Front-End Web Developer, UI/UX Desginer & Digital Marketer</p>
-        <p class="text-secondary" align="left" id="about">Nice to meet you! Im Jake. I recently graduated from Texas State University with a Bachelor of Science in Digital Media Innovation and Mass Communication. This exciting major exposed me to web development, digital marketing, media design, and user experience design. It allowed me to combine my creative skills and love of technology.
+        <p class="lead ext-dark font-weight-light">Front-End Developer & Digital Marketer</p>
+        <p class="font-weight-light" id="about">Nice to meet you! Im Jake. I recently graduated from Texas State
+          University with a Bachelor of Science in Digital Media Innovation and Mass Communication. This exciting major
+          exposed me to web development, digital marketing, media design, and user experience design. It allowed me to
+          combine my creative skills and love of technology.
           <br><br>
-          I'm currently looking for an entry-level full-time job or internship relating to front-end web development, UI/UX design and digital marketing. I'm seeking a company where I can continue to learn and grow my career while contributing in meaningful ways. I'm open to all opportunities, so feel free to give me a call or shoot me an email!</p>
-          <div id="buttonlist">
-          <a class="btn btn-outline-primary" href="mailto:jake@ruff.dev" role="button"><i class="far fa-envelope"></i>  jake@ruff.dev</a>
-          <a class="btn btn-outline-primary" href="https://www.github.com/jakeruff" role="button"><i class="fab fa-github"></i>  GitHub</a>
-          <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/jake-ruff" role="button"><i class="fab fa-linkedin"></i>  LinkedIn</a>
-         </div> 
+          I'm currently looking for an entry-level full-time job or internship relating to front-end web development,
+          UI/UX design and digital marketing. I'm seeking a company where I can continue to learn and grow my career
+          while contributing in meaningful ways. I'm open to all opportunities, so feel free to give me a call or shoot
+          me an email!</p>
+        <div id="buttonlist">
+          <a class="btn btn-outline-primary" href="mailto:jake@ruff.dev" role="button"><i class="far fa-envelope"></i>
+            jake@ruff.dev</a>
+          <a class="btn btn-outline-primary" href="https://www.github.com/jakeruff" role="button"><i
+              class="fab fa-github"></i> GitHub</a>
+          <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/jake-ruff" role="button"><i
+              class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
+      </div>
     </div>
   </div>
+
+  <!-- hidden Content -->
+  <div class="container" id="hiddencontain">
+    <div class="row" id="mainrow">
+      <div class="col-lg-7 col-md-12 col-sm-12 text-center" id="maindiv">
+        <img src="img/me-cool.png" alt="Jake Ruff"
+          class="rounded mx-auto d-block animate__animated animate__rotateOut animate__repeat-0 animate__delay-1s"
+          id="jake_sm">
+        <h1 class="mt-5 animate__animated animate__hinge animate__repeat-0 animate__delay-2s" id="name">Jake Ruff</h1>
+        <p class="lead ext-dark font-weight-light animate__animated animate__zoomOutDown animate__repeat-0">Front-End
+          Developer & Digital Marketer</p>
+        <p class="font-weight-light animate__animated animate__faster animate__fadeOut animate__repeat-0" id="about">
+          Nice to meet you! Im Jake. I recently graduated from Texas State University with a Bachelor of Science in
+          Digital Media Innovation and Mass Communication. This exciting major exposed me to web development, digital
+          marketing, media design, and user experience design. It allowed me to combine my creative skills and love of
+          technology.
+          <br><br>
+          I'm currently looking for an entry-level full-time job or internship relating to front-end web development,
+          UI/UX design and digital marketing. I'm seeking a company where I can continue to learn and grow my career
+          while contributing in meaningful ways. I'm open to all opportunities, so feel free to give me a call or shoot
+          me an email!</p>
+        <div id="buttonlist">
+          <a class="btn btn-outline-primary animate__animated animate__zoomOutLeft animate__repeat-0 delay-1s"
+            href="mailto:jake@ruff.dev" role="button"><i class="far fa-envelope"></i> jake@ruff.dev</a>
+          <a class="btn btn-outline-primary animate__animated animate__zoomOutDown animate__repeat-0 delay-1s"
+            href="https://www.github.com/jakeruff" role="button"><i class="fab fa-github"></i> GitHub</a>
+          <a class="btn btn-outline-primary animate__animated animate__zoomOutRight animate__repeat-0 delay-1s"
+            href="https://www.linkedin.com/in/jake-ruff" role="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="hiddencontain2">
+    <div class="row" id="mainrow">
+      <div class="col-lg-12 col-md-12 col-sm-6 justify-content-center">
+        
+        <img src="img/ohboy.png" alt="Looks like it happened again.." class="rounded mx-auto d-block" id="code">
+      </div>
+  
+  </div>
+
+  <div class="row" id="mainrow">
+    <a href="https://ruff.dev" class="hvr-grow"><img src="img/icon.png" alt="Jake on laptop" width="80" height="80" id="hidden-icon"></a>
+      <div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
+        <div id="typed-strings">
+          <p>ruff.dev</p>
+        </div>
+        <h1 class="mt-5 text-center" id="typed"></h1>
+      </div>
+      </div>
+    </div>
+  
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script src="landing.js"></script>
+
 
 </body>
 
