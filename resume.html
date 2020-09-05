@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Jake Ruff Front-End Web Developer & Designer">
+  <meta name="author" content="Jake Ruff">
 
   <title>Jake Ruff</title>
   <link rel="icon" type="image/png" href="img/icon.png"/>
@@ -15,19 +15,20 @@
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="vendor/custom/css/custom.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4e148bc523.js" crossorigin="anonymous"></script>
-  
+  <link href="dark-mode.css" media="(prefers-color-scheme: dark)" rel="stylesheet">
+
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white static-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand text-secondary font-weight-light">Jake Ruff</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light static-top shadow-sm">
+    <div class="container" id="navcontain">
+      <span class="navbar-brand text-secondary font-weight-light">Jake Ruff</span>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse text-right" id="navbarResponsive">
         <ul class="navbar-nav ml-auto font-weight-light">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
@@ -41,6 +42,13 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
+          <li id="darkmodetoggle">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+              <label class="custom-control-label text-secondary" for="darkSwitch">Dark Mode</label>
+            </div>
+            
+          </li>
         </ul>
       </div>
     </div>
@@ -49,22 +57,25 @@
   <!-- Page Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-left" id="portfoliodiv">
-        <h1 class="mt-5 text-center" id="portfolio">Resume</h1>          
-        </div>
-    </div>
-    <div class="row" id="resumebuttons">
+      <div class="col-lg-12 text-left" id="resumediv">
+        <h1 class="mt-5 text-center" id="resume">Resume</h1>          
+        <div class="row" id="resumebuttons">
       
      
-      <a class="btn btn-outline-primary btn-lg shadow-lg" href="https://drive.google.com/file/d/18flASjekzmP1sIwIvaVlHKPsdKr6dWaf/view?usp=sharing" role="button"><i class="far fa-eye"></i><br>View Resume</a> 
-      <a class="btn btn-outline-primary btn-lg shadow-lg" href="https://drive.google.com/uc?export=download&id=18flASjekzmP1sIwIvaVlHKPsdKr6dWaf" role="button"><i class="fas fa-download"></i><br>Download PDF</a>  
-
+          <a class="btn btn-outline-primary btn-lg shadow-lg" href="https://drive.google.com/file/d/18flASjekzmP1sIwIvaVlHKPsdKr6dWaf/view?usp=sharing" role="button"><i class="far fa-eye"></i><br>View Resume</a> 
+          <a class="btn btn-outline-primary btn-lg shadow-lg" href="https://drive.google.com/uc?export=download&id=18flASjekzmP1sIwIvaVlHKPsdKr6dWaf" role="button"><i class="fas fa-download"></i><br>Download PDF</a>  
+    
+        </div>  
+      </div>
+        
     </div>
+    
   </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="dark-mode-switch.js"></script>
 
 </body>
 

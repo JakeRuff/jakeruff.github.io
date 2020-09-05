@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Jake Ruff Front-End Web Developer & Designer">
+  <meta name="author" content="Jake Ruff">
 
   <title>Jake Ruff</title>
   <link rel="icon" type="image/png" href="img/icon.png" />
@@ -15,20 +15,21 @@
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="vendor/custom/css/custom.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4e148bc523.js" crossorigin="anonymous"></script>
+  <link href="dark-mode.css" media="(prefers-color-scheme: dark)" rel="stylesheet">
 
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white static-top shadow-sm">
-    <div class="container">
-      <a class="navbar-brand text-secondary font-weight-light">Jake Ruff</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+  <nav class="navbar navbar-expand-lg navbar-light static-top shadow-sm">
+    <div class="container" id="navcontain">
+      <span class="navbar-brand text-secondary font-weight-light">Jake Ruff</span>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse text-right" id="navbarResponsive">
         <ul class="navbar-nav ml-auto font-weight-light">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
@@ -40,6 +41,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="resume">Resume</a>
+          </li>
+          <li id="darkmodetoggle">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+              <label class="custom-control-label text-secondary" for="darkSwitch">Dark Mode</label>
+            </div>
+            
           </li>
         </ul>
       </div>
@@ -57,12 +65,12 @@
       <!--COVID19 Project-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded rounded">
             <div class="card-horizontal">
               
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/covid.gif" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">COVID-19 & Unemployment</h4>
@@ -87,11 +95,11 @@
       <!--FamilyHub-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/familyhub.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">FamilyHub App Prototype</h4>
@@ -117,11 +125,11 @@
       <!--ScreenGenius-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/screengenius.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Screen Genius iPhone Repair</h4>
@@ -140,11 +148,11 @@
       <!--Most Dangerous Jobs-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/dangerousjobs.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Most Dangerous Jobs in America</h4>
@@ -166,11 +174,11 @@
       <!--Car Brands Quiz-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/carquiz.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Car Brands Quiz</h4>
@@ -190,11 +198,11 @@
       <!--24 Page Magazine-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/magsample.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">24 Page Sample Magazine</h4>
@@ -211,11 +219,11 @@
       <!--Social Media Analytics-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/socialmedia.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Social Media Analytics Report</h4>
@@ -233,11 +241,11 @@
       <!--Mock-up iPhone App Design-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/mockupapp.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Mocke-Up iPhone App Design</h4>
@@ -255,11 +263,11 @@
       <!--Profile Webpage-->
       <div class="row">
         <div class="col-12 mt-3">
-          <div class="card shadow">
+          <div class="card shadow rounded">
             <div class="card-horizontal">
               <div class="img-square-wrapper">
                 <img class="rounded" src="img/projectthumbs/profilewebpage.png" width="250px" height="200px"
-                  alt="Card image cap">
+                  alt="Jake Ruff">
               </div>
               <div class="card-body">
                 <h4 class="card-title">Profile Webpage Design</h4>
@@ -276,7 +284,7 @@
         </div>
       </div>
 
-      <div class="alert alert-light text-center" role="alert">
+      <div class="alert text-secondary text-center" role="alert">
         Created by Jake Ruff
       </div>
 
@@ -286,6 +294,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.slim.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="dark-mode-switch.js"></script>
 
 </body>
 

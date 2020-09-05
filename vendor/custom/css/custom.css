@@ -1,3 +1,25 @@
+
+#errordark {
+  display:none;
+}
+i {
+  margin-right: 4px;
+}
+body {
+  background-image: transparent !important;
+}
+#secretbtn {
+  background-image: transparent url(img/icon.png) !important;
+}
+.rounded {
+  border-radius:.55rem !important;
+}
+.custom-control {
+  padding-top: 8px;
+}
+#darkmodetoggle {
+  margin-left: 10px;
+}
 #jake_sm {
     height: 160px;
     width: 160px;
@@ -44,11 +66,7 @@ footer {
   bottom: 0;
   width: 100%;
  }
-@media (min-width:320px) {
-    #maindiv {
-        padding-top: 3em !important;
-    }
-}
+
 #portfoliodiv {
     padding-top: 3em;
 }
@@ -79,13 +97,25 @@ max-width: 1344px;
     margin-top: 1em;
     margin-bottom: 3em;
 }
+#resumediv {
+  height: calc(100vh - 300px);
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      padding: 3em;
+      overflow: hidden;
+ }
 @media (min-width:600px){
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
     }
-    #maindiv, #secretdiv {
-      height: 95vh; 
+    .navbar {
+      max-height: 50px !important;
+    }
+    #maindiv, #secretdiv, #diverror, #hiddencontain2 {
+      height: calc(100vh - 50px);
       display: flex;
       flex-direction: column;
       align-items: center; 
@@ -100,15 +130,39 @@ max-width: 1344px;
         display: flex;
         justify-content: center;
     }
+    
+    #maindiv, #secretdiv, #diverror {
+      height: calc(100vh - 50px);
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      padding: 3em;
+      overflow: hidden;
+    }
 }
+
 @media (min-width:320px) {
     .img-square-wrapper {
         padding-top: 2em !important;
         display: flex;
         justify-content: center;
     }
+    #maindiv, #secretdiv, #diverror {
+      height: calc(100vh - 50px);
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      padding: 3em;
+      overflow: hidden;
+    }
     
 }
+
+
+
+
 #alt-nav-brand {
   display:none;
 }
