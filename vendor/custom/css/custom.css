@@ -23,6 +23,7 @@ body {
 #jake_sm {
     height: 160px;
     width: 160px;
+    margin-top: 3em;
 }
 #code {
   width: 900px; 
@@ -148,7 +149,7 @@ max-width: 1344px;
         display: flex;
         justify-content: center;
     }
-    #maindiv, #secretdiv, #diverror {
+    #secretdiv, #diverror {
       height: calc(100vh - 50px);
       display: flex;
       flex-direction: column;
