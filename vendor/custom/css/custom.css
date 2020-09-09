@@ -8,11 +8,11 @@ i {
 body {
   background-image: transparent !important;
 }
-#secretbtn {
-  background-image: transparent url(img/icon.png) !important;
+.navbar-brand {
+  display: block;
 }
 .rounded {
-  border-radius:.55rem !important;
+  border-radius:.8rem !important;
 }
 .custom-control {
   padding-top: 8px;
@@ -115,7 +115,7 @@ max-width: 1344px;
     .navbar {
       max-height: 50px !important;
     }
-    #maindiv, #secretdiv, #diverror, #hiddencontain2 {
+    #maindiv, #secretdiv, #diverror, #hiddencontain2, #hiddencontain {
       height: calc(100vh - 50px);
       display: flex;
       flex-direction: column;
@@ -132,7 +132,7 @@ max-width: 1344px;
         justify-content: center;
     }
     
-    #maindiv, #secretdiv, #diverror {
+    #maindiv, #secretdiv, #diverror, #hiddencontain2, #hiddencontain {
       height: calc(100vh - 50px);
       display: flex;
       flex-direction: column;
@@ -149,7 +149,7 @@ max-width: 1344px;
         display: flex;
         justify-content: center;
     }
-    #secretdiv, #diverror {
+    #secretdiv, #diverror, #hiddencontain2, #hiddencontain {
       height: calc(100vh - 50px);
       display: flex;
       flex-direction: column;
