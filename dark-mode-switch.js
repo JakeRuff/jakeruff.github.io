@@ -1,10 +1,8 @@
-const darkSwitch = document.getElementById('darkSwitch');
+
 window.addEventListener('load', () => {
-  if (darkSwitch) {
+  if (systemPrefersDarkMode) {
     initTheme();
-    darkSwitch.addEventListener('change', () => {
-      resetTheme();
-    });
+    console.log("Hello world!");
   }
 });
 
@@ -22,19 +20,15 @@ window.addEventListener('load', () => {
  */
 function initTheme() {
   const systemPrefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const darkThemeSelected =
-    localStorage.getItem('darkSwitch') !== null &&
-    localStorage.getItem('darkSwitch') === 'dark';
-    if (darkThemeSelected) {
-      darkSwitch.checked = true;
+
+    if (systemPrefersDarkMode) {
+
       document.body.setAttribute('data-theme', 'dark');
     }
     else if (systemPrefersDarkMode) {
-      darkSwitch.checked = true;
       document.body.setAttribute('data-theme', 'dark');
     }
     else {
-      darkSwitch.checked = false;
       document.body.removeAttribute('data-theme');
     }
   }
@@ -46,7 +40,7 @@ function initTheme() {
  * on it will set the HTML attribute 'data-theme' to dark so the dark-theme CSS is
  * applied.
  * @return {void}
- */
+
 function resetTheme() {
   if (darkSwitch.checked) {
     document.body.setAttribute('data-theme', 'dark');
