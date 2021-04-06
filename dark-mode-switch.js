@@ -1,10 +1,5 @@
 
-window.addEventListener('load', () => {
-  if (systemPrefersDarkMode) {
-    initTheme();
-    console.log("Hello world!");
-  }
-});
+
 
 
 /**
@@ -32,7 +27,12 @@ function initTheme() {
       document.body.removeAttribute('data-theme');
     }
   }
-
+window.addEventListener('load', () => {
+  if (systemPrefersDarkMode) {
+    initTheme();
+    console.log("Hello world!");
+  }
+});
 
 
 /**

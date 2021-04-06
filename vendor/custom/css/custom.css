@@ -86,10 +86,10 @@ footer {
 }
 #navcontain {
   flex-grow: 1;
-margin: 0 auto;
-position: relative;
-width: auto;
-max-width: 1344px;
+  margin: 0 auto;
+  position: relative;
+  max-width: 70% !important;
+  padding-top: 20px !important;
 }
 .card {
     margin-top: 3em;
