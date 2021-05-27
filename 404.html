@@ -39,8 +39,18 @@
   </footer>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="dark-mode-switch.js"></script>
-
+<script>
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    console.log('darkmode is on');
+    document.body.setAttribute('data-theme', 'dark');
+  }
+  else if (systemPrefersDarkMode) {
+    document.body.setAttribute('data-theme', 'dark');
+  }
+  else {
+    document.body.removeAttribute('data-theme');
+  }
+</script>
 </body>
 
 </html>

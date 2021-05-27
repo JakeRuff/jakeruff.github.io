@@ -37,6 +37,10 @@
     background-color: #212121;
 }
 
+[data-theme="dark"] .navbar-light .navbar-brand {
+  color: white;
+}
+
 [data-theme="dark"] .btn-link {
   background-color: #212121
 }
@@ -44,6 +48,7 @@
 [data-theme="dark"] a:hover {
     text-decoration: none;
 }
+
 [data-theme="dark"] .card {
   background-color: #2e2d2d !important;
   color: #eee;
