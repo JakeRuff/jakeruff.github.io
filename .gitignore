@@ -5,3 +5,6 @@ images/projectthumbs/.DS_Store
 .DS_Store
 elements.html
 .nova
+.idea/vcs.xml
+.idea/Personal-Site.iml
+.idea/modules.xml
