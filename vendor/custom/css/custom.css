@@ -32,7 +32,12 @@ background-color: #F7F7F7;
   width: 160px;
   margin-top: 3em;
 }
-
+.project-note {
+  color: black;
+  font-size: .7rem;
+  font-style: italic;
+  margin-top: 8px;
+}
 #code {
   width: 900px;
   height: 430px;
