@@ -9,7 +9,10 @@ i {
 body {
 background-color: #F7F7F7;
 }
-
+.project-thumbnail {
+  -webkit-box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.31); 
+  box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.31);
+}
 .navbar-brand {
   display: block;
 }
