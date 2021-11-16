@@ -14,7 +14,6 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
   <link href="vendor/custom/css/custom.css" rel="stylesheet">
-  <link href="dark-mode.css" media="(prefers-color-scheme: dark)" rel="stylesheet">
 </head>
 
 <body>
@@ -25,32 +24,16 @@
         <img src="img/404img.png" alt="Jake Ruff 404" class="rounded mx-auto d-block hvr-bob" id="img404">
         <h1 class="mt-5" id="404msg">404</h1>
         <p class="lead">hmm... that page seems to be missing.</p>
-        <a class="btn btn-outline-primary" href="https://ruff.dev" role="button">Take me home</a>
+        <a class="btn btn-outline-light" href="https://ruff.dev" role="button">Take me home</a>
       </div>
     </div>
   </div>
 
   <footer class="text-center">
     <p class="text-secondary">ruff.dev</p>
-    <div class="custom-control custom-switch" id="errordark">
-      <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-      <label class="custom-control-label text-secondary" for="darkSwitch">Dark Mode</label>
-    </div>
   </footer>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script>
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    console.log('darkmode is on');
-    document.body.setAttribute('data-theme', 'dark');
-  }
-  else if (systemPrefersDarkMode) {
-    document.body.setAttribute('data-theme', 'dark');
-  }
-  else {
-    document.body.removeAttribute('data-theme');
-  }
-</script>
 </body>
 
 </html>
