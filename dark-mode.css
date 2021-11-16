@@ -4,7 +4,7 @@
 }
 
 [data-theme="dark"] .project-note {
-  color: color(srgb 0.635 0.635 0.635);
+  color: lightgray;
   font-size: .7rem;
   font-style: italic;
   margin-top: 8px;
