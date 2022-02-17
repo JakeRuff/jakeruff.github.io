@@ -243,7 +243,13 @@ footer {
     display: flex;
     justify-content: center;
   }
-
+  #name {
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 7.4rem;
+  
+  }
+  
   #secretdiv,
   #diverror,
   #hiddencontain2,
