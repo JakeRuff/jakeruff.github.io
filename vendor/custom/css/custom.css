@@ -237,7 +237,7 @@ footer {
   }
 }
 
-@media (min-width:320px) {
+@media (max-width:475px) {
   .img-square-wrapper {
     padding-top: 2em !important;
     display: flex;
