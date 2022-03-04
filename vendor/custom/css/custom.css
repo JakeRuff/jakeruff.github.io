@@ -27,9 +27,9 @@ h1 {
 .homenav a {
   color: gray;
   text-decoration: none;
-  -moz-transition:color .2s ease-in;
-  -o-transition:color .2s ease-in;
-  -webkit-transition:color .2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
   font-weight: 800;
 }
 .homenav a:hover {
@@ -47,29 +47,28 @@ h1 {
   background-color: black;
   border: none;
 }
- .card-title {
-   color: white;
-   font-weight: 600;
-   font-size: 2.5rem;
- }
- .card-text {
-   color: white;
- }
+.card-title {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.card-text {
+  color: white;
+}
 body {
-background-color: black;
+  background-color: black;
 }
 .project-thumbnail {
-  -webkit-box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.31); 
-  box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.31);
+  -webkit-box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.31);
 }
-
 
 .navbar-brand {
   color: gray !important;
   font-size: 2rem;
-  -moz-transition:color .2s ease-in;
-  -o-transition:color .2s ease-in;
-  -webkit-transition:color .2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
 }
 
 .navbar-brand:hover {
@@ -77,23 +76,21 @@ background-color: black;
   margin-right: 0;
 }
 
-
-
 #jake_sm {
   height: 160px;
   width: 160px;
 }
 .project-note {
   color: white;
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-style: italic;
   margin-top: 8px;
 }
 .project-note a {
   color: lightgray;
-  -moz-transition:color .2s ease-in;
-  -o-transition:color .2s ease-in;
-  -webkit-transition:color .2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
 }
 .project-note a:hover {
   color: white;
@@ -113,7 +110,7 @@ background-color: black;
 p {
   font-weight: 500;
   font-size: 1.2rem;
-  color: white
+  color: white;
 }
 
 button {
@@ -151,7 +148,7 @@ footer {
 }
 
 .mt-5 {
-  margin-top: .3em !important;
+  margin-top: 0.3em !important;
 }
 
 #mainrow {
@@ -192,7 +189,7 @@ footer {
   overflow: hidden;
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .card-horizontal {
     display: flex;
     flex: 1 1 auto;
@@ -215,8 +212,7 @@ footer {
   }
 }
 
-@media (min-width:320px) {
-  
+@media (min-width: 320px) {
   .img-square-wrapper {
     padding-top: 5em !important;
     display: flex;
@@ -228,7 +224,6 @@ footer {
   #diverror,
   #hiddencontain2,
   #hiddencontain {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,14 +232,14 @@ footer {
   }
 }
 
-@media (max-width:475px) {
+@media (max-width: 475px) {
   .img-square-wrapper {
     padding-top: 2em !important;
     display: flex;
     justify-content: center;
   }
   #name {
-    font-size: 4.8rem;
+    font-size: 3.8rem;
     font-weight: 600;
     line-height: 6.4rem;
   }
@@ -254,7 +249,7 @@ footer {
   .homenav h2 {
     display: block !important;
   }
-  
+
   #secretdiv,
   #diverror,
   #hiddencontain2,
@@ -267,7 +262,6 @@ footer {
     overflow: hidden;
   }
 }
-
 
 .img-square-wrapper {
   padding: 1em;
@@ -301,7 +295,7 @@ footer {
 }
 
 .btn {
-  margin: .3em;
+  margin: 0.3em;
 }
 
 /* Bob */
@@ -364,10 +358,10 @@ footer {
 .hvr-bob {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
-  -webkit-animation-duration: .3s, 1.5s;
-  animation-duration: .3s, 1.5s;
-  -webkit-animation-delay: 0s, .3s;
-  animation-delay: 0s, .3s;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
   -webkit-animation-timing-function: ease-out, ease-in-out;
   animation-timing-function: ease-out, ease-in-out;
   -webkit-animation-iteration-count: 1, infinite;
@@ -377,4 +371,3 @@ footer {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
-
