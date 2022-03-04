@@ -12,16 +12,32 @@ h1 {
   max-width: 1900px;
 }
 .videotextbox {
-  background: white url("/img/blurredgradient.mp4") 50% 70% / cover;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
+
+.videotextbox video {
+  width: 100%;
+  height: auto;
+}
+
 #name {
   font-size: 9rem;
   font-weight: 600;
-  line-height: 8.4rem;
+  line-height: 10rem;
   background: black;
   color: white;
-  mix-blend-mode: darken;
+  mix-blend-mode: multiply;
   margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .homenav a {
@@ -157,7 +173,6 @@ footer {
 
 .lead {
   margin-bottom: 1.5em;
-  margin-top: 1.5em;
   font-weight: 400;
   font-size: 1.8em;
   color: white;
@@ -245,6 +260,7 @@ footer {
   }
   .lead {
     font-size: 1.6rem;
+    margin-top: 1.5rem;
   }
   .homenav h2 {
     display: block !important;
