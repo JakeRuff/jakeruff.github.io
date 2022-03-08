@@ -78,7 +78,7 @@ h1 {
 .card-title {
   color: white;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .card-text {
   color: white;
@@ -158,13 +158,17 @@ i {
   font-weight: 400;
   background-color: #424242;
   color: white;
-  padding: 4px;
+  padding: 6px;
+  font-size: 80%;
+  margin-bottom: 4px;
 }
 
 #diverror {
   padding-top: 5em;
 }
-
+.heading {
+  font-size: 3rem;
+}
 footer {
   position: absolute;
   bottom: 0;
@@ -241,9 +245,8 @@ footer {
 
 @media (min-width: 320px) {
   .img-square-wrapper {
-    padding-top: 5em !important;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   #maindiv,
@@ -261,9 +264,8 @@ footer {
 
 @media (max-width: 475px) {
   .img-square-wrapper {
-    padding-top: 2em !important;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
   .homenav h1 {
     font-size: 2rem;
