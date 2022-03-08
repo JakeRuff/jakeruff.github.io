@@ -1,3 +1,15 @@
+/* navigation */
+section,
+section:target ~ section:last-of-type {
+  display: none;
+}
+
+section:target,
+section:last-of-type {
+  display: inherit;
+}
+/* end navigation */
+
 i {
   margin-right: 4px;
 }
@@ -252,6 +264,9 @@ footer {
     padding-top: 2em !important;
     display: flex;
     justify-content: center;
+  }
+  .homenav h1 {
+    font-size: 2rem;
   }
   #name {
     font-size: 3.8rem;
