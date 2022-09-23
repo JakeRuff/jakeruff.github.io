@@ -1,3 +1,8 @@
+<h1 align=center>Portfolio</h1>
+
+&nbsp;
+&nbsp;
+
 ![Jake Ruff](/images/thumbnails/axiomllc.webp)
 
 ## Axiom Medical
@@ -8,9 +13,14 @@ WordPress CSS Divi Page Builder jQuery
   
 [Visit Site](https://www.axiomllc.com)
 
-Produced at [Method21.](https://www.method21.com)
+<sup>Produced at [Method21.](https://www.method21.com)</sup>
+
+___
+
+&nbsp;
 
 ![Jake Ruff](/images/thumbnails/vaqs.webp)
+
 
 ## VA Quality Scholars
 
@@ -19,10 +29,12 @@ Helped develop a site for the VA Quality Scholars program that has 11 sites thro
 PHP WordPress Divi Page Builder Advanced Custom Fields Custom Post Types  
   
 [Visit Site](https://vaqs.org)
-
-If you'd like to see some of the code for this project, please schedule a call with me.  
   
-Produced at [Method21.](https://www.method21.com)
+<sup>Produced at [Method21.](https://www.method21.com)</sup>
+
+___
+
+&nbsp;
 
 ![Jake Ruff](/images/thumbnails/wethelist.webp)
 
@@ -34,7 +46,11 @@ WooCommerce WordPress Divi Page Builder
   
 [Visit Site](https://wethelist.com/)
 
-Produced at [Method21.](https://www.method21.com)
+<sup>Produced at [Method21.](https://www.method21.com)</sup>
+
+___
+
+&nbsp;
 
 ![Jake Ruff](/images/thumbnails/covid.webp)
 
@@ -46,6 +62,10 @@ HTML & CSS JavaScript Bootstrap Google Charts High Charts
   
 [Visit Site](https://ruff.dev/COVID19-Unemployment) [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
 
+___
+
+&nbsp;
+
 ![Jake Ruff](/images/thumbnails/familyhub.webp)
 
 ## FamilyHub App Prototype
@@ -55,6 +75,10 @@ Created a website for a mock up prototype app called FamilyHub, for keeping trac
 HTML & CSS Bootstrap Adobe XD  
   
 [Visit Site](https://ruff.dev/FamilyHub-Prototype) [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
+
+___
+
+&nbsp;
 
 ![Jake Ruff](/images/thumbnails/dangerousjobs.webp)
 
@@ -66,6 +90,10 @@ HTML & CSS Bootstrap JavaScript Google Charts
   
 [Visit Site](https://ruff.dev/Dangerous-Jobs) [GitHub](https://github.com/JakeRuff/Dangerous-Jobs)
 
+___
+
+&nbsp;
+
 ![Jake Ruff](/images/thumbnails/carquiz.webp)
 
 ## Car Brands Quiz
@@ -75,6 +103,10 @@ Used HTML/CSS and Javascript to create an interactive quiz based on car brands f
 HTML & CSS JavaScript  
   
 [Visit Site](https://ruff.dev/Car-Brands-JS-Quiz) [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
+
+___
+
+&nbsp;
 
 ![Jake Ruff](/images/thumbnails/magsample.webp)
 
@@ -86,6 +118,10 @@ Adobe InDesign
   
 [View PDF](https://drive.google.com/file/d/1apbzPHVNmrOdvefiuz37ckAMyi99BE0Y/view?usp=sharing)
 
+___
+
+&nbsp;
+
 ![Jake Ruff](/images/thumbnails/socialmedia.webp)
 
 ## Social Media Analytics Report
@@ -95,6 +131,10 @@ Created Twitter and Instagram analytics reports investigating the PACE Center so
 Adobe Photoshop  
   
 [View PDF](https://drive.google.com/file/d/1DGn0r40X40x_ThgYy3D9ZrIUQhml6Hac/view?usp=sharing)
+
+___
+
+&nbsp;
 
 ![Jake Ruff](/images/thumbnails/mockupapp.webp)
 

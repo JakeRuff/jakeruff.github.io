@@ -27,7 +27,7 @@
   }
 }
 
-#h {
+#home {
   margin-top: 6rem;
   max-width: 36em;
   margin-left: auto;
@@ -87,36 +87,4 @@ br,
 header,
 ul {
   margin-bottom: 1em;
-}
-
-ul {
-  padding-left: 1em;
-}
-
-br {
-  content: " ";
-  display: block;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-}
-
-header>a {
-  font-size: 1.7em;
-  font-weight: 700;
-}
-
-nav a {
-  margin-left: 0.75em;
-}
-
-#h>h3 {
-  margin-bottom: 1rem;
-}
-.container {
-  display: flex;
 }
