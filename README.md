@@ -1,4 +1,4 @@
-![Jake Ruff](img/projectthumbs/axiomllc.webp)
+![Jake Ruff](images/projectthumbs/axiomllc.webp)
 
 ## Axiom Medical
 
@@ -10,7 +10,7 @@ WordPress CSS Divi Page Builder jQuery
 
 Produced at [Method21.](https://www.method21.com)
 
-![Jake Ruff](img/projectthumbs/vaqs.webp)
+![Jake Ruff](./images/projectthumbs/vaqs.webp)
 
 ## VA Quality Scholars
 
@@ -24,7 +24,7 @@ If you'd like to see some of the code for this project, please schedule a call w
   
 Produced at [Method21.](https://www.method21.com)
 
-![Jake Ruff](img/projectthumbs/wethelist.webp)
+![Jake Ruff](./images/projectthumbs/wethelist.webp)
 
 ## We The List
 
@@ -36,7 +36,7 @@ WooCommerce WordPress Divi Page Builder
 
 Produced at [Method21.](https://www.method21.com)
 
-![Jake Ruff](img/projectthumbs/covid.webp)
+![Jake Ruff](./images/projectthumbs/covid.webp)
 
 ## COVID-19 & Unemployment
 
@@ -46,7 +46,7 @@ HTML & CSS JavaScript Bootstrap Google Charts High Charts
   
 [Visit Site](https://ruff.dev/COVID19-Unemployment) [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
 
-![Jake Ruff](img/projectthumbs/familyhub.webp)
+![Jake Ruff](./images/projectthumbs/familyhub.webp)
 
 ## FamilyHub App Prototype
 
@@ -56,7 +56,7 @@ HTML & CSS Bootstrap Adobe XD
   
 [Visit Site](https://ruff.dev/FamilyHub-Prototype) [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
 
-![Jake Ruff](img/projectthumbs/dangerousjobs.webp)
+![Jake Ruff](./images/projectthumbs/dangerousjobs.webp)
 
 ## Most Dangerous Jobs in America
 
@@ -66,7 +66,7 @@ HTML & CSS Bootstrap JavaScript Google Charts
   
 [Visit Site](https://ruff.dev/Dangerous-Jobs) [GitHub](https://github.com/JakeRuff/Dangerous-Jobs)
 
-![Jake Ruff](img/projectthumbs/carquiz.webp)
+![Jake Ruff](./images/projectthumbs/carquiz.webp)
 
 ## Car Brands Quiz
 
@@ -76,7 +76,7 @@ HTML & CSS JavaScript
   
 [Visit Site](https://ruff.dev/Car-Brands-JS-Quiz) [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
 
-![Jake Ruff](img/projectthumbs/magsample.webp)
+![Jake Ruff](./images/projectthumbs/magsample.webp)
 
 ## 24 Page Sample Magazine
 
@@ -86,7 +86,7 @@ Adobe InDesign
   
 [View PDF](https://drive.google.com/file/d/1apbzPHVNmrOdvefiuz37ckAMyi99BE0Y/view?usp=sharing)
 
-![Jake Ruff](img/projectthumbs/socialmedia.webp)
+![Jake Ruff](./images/projectthumbs/socialmedia.webp)
 
 ## Social Media Analytics Report
 
@@ -96,7 +96,7 @@ Adobe Photoshop
   
 [View PDF](https://drive.google.com/file/d/1DGn0r40X40x_ThgYy3D9ZrIUQhml6Hac/view?usp=sharing)
 
-![Jake Ruff](img/projectthumbs/mockupapp.webp)
+![Jake Ruff](./images/projectthumbs/mockupapp.webp)
 
 ## Mock-Up iPhone App Design
 
