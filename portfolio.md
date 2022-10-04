@@ -1,3 +1,16 @@
+<style>
+@media (prefers-color-scheme: dark) {
+body {
+  background: #27292f !important;
+}
+.top-bar {
+  background: #27292f !important;
+}
+.menu {
+  background: #27292f !important;
+}
+}
+</style>
 <h1 align=center>Portfolio</h1>
 
 &nbsp;
