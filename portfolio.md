@@ -1,13 +1,19 @@
 <style>
 @media (prefers-color-scheme: dark) {
 body {
-  background: #27292f !important;
+  background: #22272E;
 }
 .top-bar {
-  background: #27292f !important;
+  background: #2D333B;
 }
 .menu {
-  background: #27292f !important;
+  background: #22272E;
+}
+a {
+  color: #CDD9E5 !important;
+}
+a:hover {
+  color: #9DA7B2 !important;
 }
 }
 </style>
