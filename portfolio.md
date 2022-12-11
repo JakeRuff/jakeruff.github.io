@@ -28,7 +28,7 @@ a:hover {
 
 Helped develop a site for Axiom Medical, a company that provides medical management solutions and specializes in occupational health. Worked on creating different layouts for many pages using the Divi page builder and helped custom style blocks and forms. Also helped with homepage slider, using a jQuery slider inserted into Divi with a custom shortcode.
 
-WordPress CSS Divi Page Builder jQuery  
+Built with: WordPress, CSS, Divi Page Builder, jQuery  
   
 [Visit Site](https://www.axiomllc.com)
 
@@ -45,7 +45,7 @@ ___
 
 Helped develop a site for the VA Quality Scholars program that has 11 sites throughout the U.S that trains leaders and scholars in healthcare improvement. Developed in Divi framework from WordPress, along with custom post types and advanced custom fields to loop through staff members with various different factors such as locations and seniority.
 
-PHP WordPress Divi Page Builder Advanced Custom Fields Custom Post Types  
+Built with: PHP, WordPress, Divi Page Builder, Advanced Custom Fields, Custom Post Types  
   
 [Visit Site](https://vaqs.org)
   
@@ -61,7 +61,7 @@ ___
 
 Helped set up and maintain many different product listings from various brands using WooCommerce for a Houston, TX based lifestyle boutique that sells clothing, ceramics, home decor and music related items.
 
-WooCommerce WordPress Divi Page Builder  
+Built with: WooCommerce, WordPress, Divi Page Builder  
   
 [Visit Site](https://wethelist.com/)
 
@@ -77,7 +77,7 @@ ___
 
 A data-driven narrative about how COVID-19 impacted unemployment in America. Collected data from various governmental bodies and visualized them to tell a story about job loss during the pandemic.
 
-HTML & CSS JavaScript Bootstrap Google Charts High Charts  
+Built with: HTML & CSS, JavaScript, Bootstrap, Google Charts, High Charts  
   
 [Visit Site](https://ruff.dev/COVID19-Unemployment) [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
 
@@ -91,7 +91,7 @@ ___
 
 Created a website for a mock up prototype app called FamilyHub, for keeping track of your family and important documents. The prototype and website were developed for my digital media innovation capstone course. The concept was developed as part of a group project, [link to PDF of research here.](https://drive.google.com/file/d/1e_cg1smTxKdH3zdI20i5fudpgNPN1KyB/view?usp=sharing)
 
-HTML & CSS Bootstrap Adobe XD  
+HTML & CSS, Bootstrap, Adobe XD  
   
 [Visit Site](https://ruff.dev/FamilyHub-Prototype) [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
 
@@ -105,7 +105,7 @@ ___
 
 Used Javascript and data from the Bureau of Labor Statistics to visualize America’s most dangerous jobs using Google Charts API.
 
-HTML & CSS Bootstrap JavaScript Google Charts  
+Built with: HTML & CSS, Bootstrap, JavaScript, Google Charts  
   
 [Visit Site](https://ruff.dev/Dangerous-Jobs) [GitHub](https://github.com/JakeRuff/Dangerous-Jobs)
 
@@ -119,7 +119,7 @@ ___
 
 Used HTML/CSS and Javascript to create an interactive quiz based on car brands for my coding and data skills class.
 
-HTML & CSS JavaScript  
+Built with: HTML & CSS, JavaScript  
   
 [Visit Site](https://ruff.dev/Car-Brands-JS-Quiz) [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
 
@@ -133,7 +133,7 @@ ___
 
 Created a mock 24 page travel magazine to show design skills as a part of my media design class.
 
-Adobe InDesign  
+Built with: Adobe InDesign  
   
 [View PDF](https://drive.google.com/file/d/1apbzPHVNmrOdvefiuz37ckAMyi99BE0Y/view?usp=sharing)
 
@@ -147,7 +147,7 @@ ___
 
 Created Twitter and Instagram analytics reports investigating the PACE Center social media accounts at Texas State for my Advanced Social Media and Analytics class.
 
-Adobe Photoshop  
+Built with: Adobe Photoshop  
   
 [View PDF](https://drive.google.com/file/d/1DGn0r40X40x_ThgYy3D9ZrIUQhml6Hac/view?usp=sharing)
 
@@ -161,6 +161,6 @@ ___
 
 Designed a mock-up iPhone app for a Texas State art exhibit during my media design class.
 
-Adobe XD  
+Built with: Adobe XD  
   
 [View Video Demo](https://drive.google.com/file/d/1s_cAnh2ugieD40an2hbshSuL86ezjgim/view?usp=sharing)
