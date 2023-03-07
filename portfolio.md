@@ -136,31 +136,3 @@ Created a mock 24 page travel magazine to show design skills as a part of my med
 Built with: Adobe InDesign  
   
 [View PDF](https://drive.google.com/file/d/1apbzPHVNmrOdvefiuz37ckAMyi99BE0Y/view?usp=sharing)
-
-___
-
-&nbsp;
-
-![Jake Ruff](/images/thumbnails/socialmedia.webp)
-
-## Social Media Analytics Report
-
-Created Twitter and Instagram analytics reports investigating the PACE Center social media accounts at Texas State for my Advanced Social Media and Analytics class.
-
-Built with: Adobe Photoshop  
-  
-[View PDF](https://drive.google.com/file/d/1DGn0r40X40x_ThgYy3D9ZrIUQhml6Hac/view?usp=sharing)
-
-___
-
-&nbsp;
-
-![Jake Ruff](/images/thumbnails/mockupapp.webp)
-
-## Mock-Up iPhone App Design
-
-Designed a mock-up iPhone app for a Texas State art exhibit during my media design class.
-
-Built with: Adobe XD  
-  
-[View Video Demo](https://drive.google.com/file/d/1s_cAnh2ugieD40an2hbshSuL86ezjgim/view?usp=sharing)
