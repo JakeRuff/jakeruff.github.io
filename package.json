@@ -1,10 +1,10 @@
 {
     "single-page-markdown-website": {
-      "baseUrl": "https://ruff.dev/",
+      "baseUrl": "https://ruff.dev/portfolio",
       "title": "Jake Ruff - Portfolio",
       "description": "Jake Ruff - Portfolio",
-      "toc": true,
-      "sections": true,
+      "toc": false,
+      "sections": false,
       "links": [
         {
           "text": "GitHub",
