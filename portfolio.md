@@ -16,6 +16,13 @@ a:hover {
   color: #9DA7B2 !important;
 }
 }
+.content {
+margin-left: 0px !important;
+padding-bottom: 0px !important;
+}
+.header-link {
+  display: none !important;
+}
 </style>
 <h1 align=center>Portfolio</h1>
 
