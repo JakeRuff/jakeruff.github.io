@@ -1,4 +1,5 @@
 <style>
+  /* Start Dark Mode Styles */
 @media (prefers-color-scheme: dark) {
 body {
   background: #22272E;
@@ -10,12 +11,32 @@ body {
   background: #22272E;
 }
 a {
-  color: #CDD9E5 !important;
-}
+    color: #539bf5 !important;
+    text-decoration: none !important;
+  }
 a:hover {
-  color: #9DA7B2 !important;
+    text-decoration: underline !important;
+  }
+  .top-bar a {
+    color: white !important;
+    text-decoration: none !important;
+  }
+.top-bar a:hover {
+    text-decoration: underline !important;
+  }
 }
-}
+/* End Dark Mode Styles */
+a {
+    color: #539bf5 !important;
+    text-decoration: none !important;
+  }
+a:hover {
+    text-decoration: underline !important;
+  }
+  .top-bar a {
+    color: black ;
+    text-decoration: none !important;
+  }
 .content {
 margin-left: 0px !important;
 padding-bottom: 0px !important;
@@ -23,6 +44,13 @@ padding-bottom: 0px !important;
 .header-link {
   display: none !important;
 }
+.top-bar__items a[target='_blank']:after {
+  display: none !important;
+}
+small {
+  font-size: .7rem;
+}
+
 </style>
 <h1 align=center>Portfolio</h1>
 
@@ -39,7 +67,7 @@ Built with: WordPress, CSS, Divi Page Builder, jQuery
   
 [Visit Site](https://www.axiomllc.com)
 
-<sup>Produced at [Method21.](https://www.method21.com)</sup>
+<small>Produced at [Method21.](https://www.method21.com)</small>
 
 ___
 
@@ -56,7 +84,7 @@ Built with: PHP, WordPress, Divi Page Builder, Advanced Custom Fields, Custom Po
   
 [Visit Site](https://vaqs.org)
   
-<sup>Produced at [Method21.](https://www.method21.com)</sup>
+<small>Produced at [Method21.](https://www.method21.com)</small>
 
 ___
 
@@ -72,7 +100,7 @@ Built with: WooCommerce, WordPress, Divi Page Builder
   
 [Visit Site](https://wethelist.com/)
 
-<sup>Produced at [Method21.](https://www.method21.com)</sup>
+<small>Produced at [Method21.](https://www.method21.com)</small>
 
 ___
 
@@ -86,7 +114,7 @@ A data-driven narrative about how COVID-19 impacted unemployment in America. Col
 
 Built with: HTML & CSS, JavaScript, Bootstrap, Google Charts, High Charts  
   
-[Visit Site](https://ruff.dev/COVID19-Unemployment) [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
+[Visit Site](https://ruff.dev/COVID19-Unemployment) | [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
 
 ___
 
@@ -100,7 +128,7 @@ Created a website for a mock up prototype app called FamilyHub, for keeping trac
 
 HTML & CSS, Bootstrap, Adobe XD  
   
-[Visit Site](https://ruff.dev/FamilyHub-Prototype) [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
+[Visit Site](https://ruff.dev/FamilyHub-Prototype) | [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
 
 ___
 
@@ -114,7 +142,7 @@ Used Javascript and data from the Bureau of Labor Statistics to visualize Americ
 
 Built with: HTML & CSS, Bootstrap, JavaScript, Google Charts  
   
-[Visit Site](https://ruff.dev/Dangerous-Jobs) [GitHub](https://github.com/JakeRuff/Dangerous-Jobs)
+[Visit Site](https://ruff.dev/Dangerous-Jobs) | [GitHub](https://github.com/JakeRuff/Dangerous-Jobs)
 
 ___
 
@@ -128,7 +156,7 @@ Used HTML/CSS and Javascript to create an interactive quiz based on car brands f
 
 Built with: HTML & CSS, JavaScript  
   
-[Visit Site](https://ruff.dev/Car-Brands-JS-Quiz) [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
+[Visit Site](https://ruff.dev/Car-Brands-JS-Quiz) | [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
 
 ___
 

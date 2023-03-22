@@ -14,14 +14,6 @@
   a {
     color: #539bf5 !important;
   }
-  a::before {
-    background-color: transparent !important;
-  }
-  
-  a:hover::before {
-    display: none !important;
-  }
-  
   a:hover {
     text-decoration: underline;
   }
