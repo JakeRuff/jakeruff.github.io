@@ -119,7 +119,7 @@ A data-driven narrative about how COVID-19 impacted unemployment in America. Col
 
 Built with: HTML & CSS, JavaScript, Bootstrap, Google Charts, High Charts  
   
-[Visit Site](https://ruff.dev/COVID19-Unemployment) | [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
+[Visit Site](https://covid19-unemployment.pages.dev) | [GitHub](https://github.com/JakeRuff/COVID19-Unemployment)
 
 ___
 
@@ -133,21 +133,7 @@ Created a website for a mock up prototype app called FamilyHub, for keeping trac
 
 HTML & CSS, Bootstrap, Adobe XD  
   
-[Visit Site](https://ruff.dev/FamilyHub-Prototype) | [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
-
-___
-
-&nbsp;
-
-![Jake Ruff](/images/thumbnails/dangerousjobs.webp)
-
-## Most Dangerous Jobs in America
-
-Used Javascript and data from the Bureau of Labor Statistics to visualize America’s most dangerous jobs using Google Charts API.
-
-Built with: HTML & CSS, Bootstrap, JavaScript, Google Charts  
-  
-[Visit Site](https://ruff.dev/Dangerous-Jobs) | [GitHub](https://github.com/JakeRuff/Dangerous-Jobs)
+[Visit Site](https://familyhub-prototype.pages.dev) | [GitHub](https://github.com/JakeRuff/FamilyHub-Prototype)
 
 ___
 
@@ -161,18 +147,4 @@ Used HTML/CSS and Javascript to create an interactive quiz based on car brands f
 
 Built with: HTML & CSS, JavaScript  
   
-[Visit Site](https://ruff.dev/Car-Brands-JS-Quiz) | [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
-
-___
-
-&nbsp;
-
-![Jake Ruff](/images/thumbnails/magsample.webp)
-
-## 24 Page Sample Magazine
-
-Created a mock 24 page travel magazine to show design skills as a part of my media design class.
-
-Built with: Adobe InDesign  
-  
-[View PDF](https://drive.google.com/file/d/1apbzPHVNmrOdvefiuz37ckAMyi99BE0Y/view?usp=sharing)
+[Visit Site](https://car-brands-js-quiz.pages.dev) | [GitHub](https://github.com/JakeRuff/Car-Brands-JS-Quiz)
